@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.cam.problem7giaiphuongtrinhbachai.ResultActivity">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/color_green"
+    android:gravity="center"
+    android:text="@string/text_title_result"
+    android:textColor="@color/color_white"
+    android:textSize="@dimen/text_size_large" />
+
+<TextView
+    android:id="@+id/tv_result"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_large"
+    android:gravity="center|start"
+    android:paddingLeft="@dimen/margin_large"
+    android:text="-1.25"
+    android:textSize="@dimen/text_size_medium" />
+
+<Button
+    android:id="@+id/btn_back"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/color_red"
+    android:gravity="center"
+    android:text="@string/text_back"
+    android:textColor="@color/color_white"
+    android:textSize="@dimen/text_size_large" />
+</LinearLayout>
+
