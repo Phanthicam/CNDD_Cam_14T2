@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="province">
+        <item>Quảng Nam</item>
+        <item>Đà Nẵng</item>
+        <item>Huế</item>
+        <item>Quảng Ngãi</item>
+        <item>Nha Trang</item>
+        <item>Đà Lạt</item>
+        <item>Khánh Hòa</item>
+        <item>Bình Định</item>
+        <item>Qui Nhơn</item>
+        <item>Cà Mau</item>
+        <item>Sài Gòn</item>
+    </string-array>
+</resources>
